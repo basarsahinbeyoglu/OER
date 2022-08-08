@@ -18,6 +18,62 @@
             <source src="https://gitlab.com/riders-content-team/content-media/-/raw/main/Robot_Detay.mp4" type=video/mp4>
         </video>        
         </div>
+        <p></p>
+    <h3>Robot Komutları</h3>
+    <p> Aşağıda robotu hareket ettirmek, robotun sensörlerinden veri almak için kullanacağınız robot komutlarını bulabilirsiniz. </p>
+    <ul>
+      <li><i><span style="color: #3333ff;">robot.move(v)</span></i><span style="color: #3333ff;">:<span
+
+            style="color: black;">Robotu ileri doğru hareket ettiren komuttur
+            (v= m/s)<br>
+          </span></span></li>
+      <li><i><span style="color: #3333ff;">robot.rotate(w)</span></i><span style="color: #3333ff;">:<span
+
+            style="color: black;">Robotu ileri doğru hareket ettiren komuttur (w
+            = rad/s)<br>
+          </span></span></li>
+      <li><i><span style="color: #3333ff;">robot.gripper_close()</span></i><span
+
+          style="color: #3333ff;"> : </span><span style=" color: #3333ff;"><span
+
+            style=" color: black;">Gripperi kapatan komuttur<br>
+          </span></span></li>
+      <li><i><span style="color: #3333ff;">robot.gripper_open()</span></i><span
+
+          style="color: #3333ff;"> : </span><span style=" color: #3333ff;"><span
+
+            style=" color: black;">Gripperi açan komuttur.<br>
+          </span></span></li>
+      <li><i style="color: #3333ff;">robot.lift_up()</i><span style="color: #3333ff;">:
+          <span style="color: black;">Forklifti yukarı kaldıran komuttur<br>
+          </span></span></li>
+      <ul>
+      </ul>
+      <li><i style="color: #3333ff;">robot.lift_down()</i><span style="color: #3333ff;">:
+          <span style="color: black;">Forklifti aşağı indiren komuttur </span></span></li>
+      <li><i><span style="color: #3333ff;">robot.image_data()</span></i>:Kameradan
+        görüntü verisini alan komuttur</li>
+      <ul>
+        <li>Kameramız 1x32 pixelboyutunda RGB bir kameradır</li>
+      </ul>
+      <ul>
+        <li>Gelen veri 96 değere sahip bir veridir. Verinin sekansı
+          şöyledir:[r1,g1,b1,r2,g2,b2,r3,b3,g3.............r32,g32,b32]</li>
+      </ul>
+      <li><i style="color: #3333ff;">robot.front_left:</i>Robotun ön-sol
+        tarafındaki mesafe sensöründen veri alan komuttur.</li>
+      <li><i style="color: #3333ff;">robot.front_right:</i> Robotun ön-sağ
+        tarafındaki mesafe sensöründen veri alan komuttur. </li>
+      <li><i style="color: #3333ff;">robot.left:</i> Robotun sol tarafındaki
+        mesafe sensöründen veri alan komuttur. </li>
+      <li><i style="color: #3333ff;">robot.right:</i> Robotun sağ tarafındaki
+        mesafe sensöründen veri alan komuttur. </li>
+      <li><i style="color: #3333ff;">robot.back:</i> Robotun arka
+        tarafındaki mesafe sensöründen veri alan komuttur.</li>
+    </ul>
+
+        <p></p>
+            
         <h5><br>
         </h5>
         <h5>Robotumuzu tanıdıktan sonra sıra geldi, Riders Editörünü daha yakından tanımaya. Aşağıdaki "Next"
